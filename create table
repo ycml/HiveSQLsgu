@@ -1,0 +1,12 @@
+--创建学生表
+drop table if exists student；
+create table if not exist student_info(
+       stu_id string  comment'学生ID',
+       stu_name string comment'学生姓名',
+       birthday string comment'出生日期',
+       sex string comment '性别'
+)
+row format delimited fields terminal by ','
+stored as textfile;
+
+--创建课程表
