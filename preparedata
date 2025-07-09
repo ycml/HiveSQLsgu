@@ -1,0 +1,6 @@
+2 数据准备
+（1） 创建/opt/module/data目录
+[atguigu@hadoop102 module]$ mkdir data
+（2）将student_info.txt、course_info.txt、teacher_info.txt和score_info.txt4个文件上传至/opt/module/data 目录下。以上4个数据文件在本书附赠的资料中可以找到。
+（3）4个文件中的数据内容分别如下所示：
+[atguigu@hadoop102 module]$vim student_info.txt
